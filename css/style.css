@@ -32,6 +32,13 @@
   padding: 5px 10px;
 }
 
+.info input::-webkit-outer-spin-button,
+.info input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 .countdown {
   display: flex;
   gap: 16px;
